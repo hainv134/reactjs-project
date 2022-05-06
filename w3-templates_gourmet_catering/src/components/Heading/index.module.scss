@@ -1,0 +1,31 @@
+.header {
+  background-color: #fff;
+  padding: 8px 16px;
+  letter-spacing: 3px;
+  height: 46px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+}
+.title {
+  display: block;
+  float: left;
+  line-height: 30px;
+  font-size: 1.1rem;
+  &:hover {
+    background-color: #ccc !important;
+  }
+}
+.nav {
+  float: right;
+  display: block;
+  a {
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    &:hover {
+      background-color: #ccc !important;
+    }
+  }
+  &::after {
+    clear: both;
+  }
+}

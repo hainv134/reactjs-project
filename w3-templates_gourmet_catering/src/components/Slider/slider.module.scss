@@ -1,0 +1,16 @@
+.slider {
+  background: url(./asset/img/hamburger.jpg) top center / cover no-repeat;
+  background-color: red;
+  padding-top: 50%;
+  position: relative;
+  width: 100vw;
+}
+.title {
+  color: rgb(172, 105, 105);
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
+  line-height: 46px;
+}

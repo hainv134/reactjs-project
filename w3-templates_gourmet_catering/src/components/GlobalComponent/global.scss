@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Playfair Display";
+}
+
+.row {
+  .col {
+    float: left;
+    padding: 12px 24px;
+  }
+  .col2 {
+    width: 50%;
+  }
+  .col3 {
+    width: 33.33%;
+  }
+  &::after {
+    clear: both;
+    content: "";
+  }
+}
+.top {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}

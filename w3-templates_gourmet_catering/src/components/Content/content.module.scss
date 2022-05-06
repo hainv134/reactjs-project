@@ -1,0 +1,78 @@
+.content {
+  padding: 0 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.InfoWrapper {
+  padding: 64px 16px;
+  height: 700px;
+  .title {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .desc {
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .detail {
+    font-size: 18px;
+  }
+}
+
+.menuWrapper {
+  padding: 0 16px;
+  height: 700px;
+  .title {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 400;
+  }
+  .item {
+    padding-bottom: 5px;
+    .name {
+      letter-spacing: 4px;
+      font-weight: 500;
+      font-size: 1.2rem;
+    }
+    .desc {
+      color: #757575 !important;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+  }
+}
+
+.contactWrapper {
+  padding: 100px 16px;
+  height: 700px;
+  input {
+    display: block;
+    width: 100%;
+    padding: 16px 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid darkgray;
+  }
+  .desc {
+    font-size: 0.9rem;
+  }
+  .address {
+    font-weight: bolder;
+    color: #607d8b !important;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+  .submit {
+    padding: 8px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    white-space: nowrap;
+    &:hover {
+      background-color: #ccc !important;
+    }
+  }
+}

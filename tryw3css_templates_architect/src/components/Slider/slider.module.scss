@@ -1,0 +1,26 @@
+.slider {
+  background: url(./asset/img/architect.jpg) top center / cover no-repeat;
+  padding-top: 50%;
+  width: 100%;
+  margin-top: 46px;
+  position: relative;
+  background-color: white;
+  color: white;
+}
+.disMiddle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  h1 {
+    .descFirst {
+      background-color: #000 !important;
+      opacity: 0.75;
+      padding: 8px 12px;
+      letter-spacing: 4px;
+      text-align: center;
+    }
+    .descSecond {
+      letter-spacing: 4px;
+    }
+  }
+}

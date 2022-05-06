@@ -1,0 +1,38 @@
+.heading {
+  height: 46px;
+  box-shadow: 0 2px 5px 0 darkgray;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  font-weight: 500;
+  .title {
+    float: left;
+    cursor: pointer;
+    letter-spacing: 4px;
+  }
+  .nav {
+    float: right;
+    a {
+      text-decoration: none;
+      display: inline-block;
+      letter-spacing: 3px;
+    }
+    &::after {
+      content: "";
+      clear: both;
+    }
+  }
+}
+.button {
+  padding: 8px 16px;
+  &:hover {
+    background-color: #ccc !important;
+  }
+  &:visited {
+    color: rgb(0, 0, 0);
+  }
+}

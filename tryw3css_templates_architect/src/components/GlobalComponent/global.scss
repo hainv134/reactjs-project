@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  padding: 0 8px;
+}
+
+.col {
+  float: left;
+  .col3 {
+    width: 33.33%;
+  }
+  .col2 {
+    width: 50%;
+  }
+  &::after {
+    content: "";
+    clear: both;
+  }
+}
